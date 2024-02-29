@@ -1,0 +1,89 @@
+.sidebar {
+  display: flex;
+  width: 20.5%;
+  height: 93vh;
+  color: #fff;
+}
+
+.left-tab {
+  background-color: #555;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  width: 17%;
+  padding: 15px 0;
+}
+
+.left-tab i {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.right-tab {
+  width: 83%;
+  background-color: #252526;
+}
+
+button {
+  border: none;
+  background-color: #252526;
+  width: 100%;
+  text-align: start;
+  color: #fff;
+  font-size: 18px;
+  padding: 5px 0;
+}
+
+button:hover {
+  background-color: #313131;
+}
+
+.explorer {
+  height: 53px;
+  display: flex;
+  align-items: center;
+  padding: 0 21px;
+  font-size: 23px;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  margin: 0 25px;
+}
+
+.items li {
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  padding: 3px 0;
+}
+
+.fa-html5 {
+  color: #e8622b;
+}
+
+.fa-css3 {
+  color: #2962e9;
+}
+
+.fa-js {
+  color: #f7d800;
+}
+
+.fa-react {
+  color: #08d9ff;
+}
+
+.fa-gem {
+  color: #a30c0b;
+}
+
+.fa-readme {
+  color: #b33beb;
+}
+
+.fa-node-js {
+  color: #428b40;
+}
