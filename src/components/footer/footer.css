@@ -1,0 +1,16 @@
+.footer {
+  background-color: #3b82f6;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 3.5vh;
+  padding: 0 10px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.right {
+  display: flex;
+  gap: 15px;
+}
