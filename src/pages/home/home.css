@@ -1,0 +1,93 @@
+.home {
+  background-color: #1e1e1e;
+  width: 100%;
+  height: 93vh;
+  padding: 0 5%;
+  color: #fff;
+}
+
+.heading {
+  padding: 2% 0;
+}
+
+.heading h1 {
+  color: #ddd;
+  font-size: 2.5rem;
+  margin-bottom: 0.5%;
+}
+
+.heading h2 {
+  color: #6b7280;
+  font-size: 1rem;
+}
+
+.content {
+  display: flex;
+  height: 60vh;
+}
+
+.content-left,
+.content-right {
+  width: 50%;
+}
+
+.start,
+.recent {
+  height: 50%;
+}
+
+.start h3,
+.recent h3,
+.about h3 {
+  color: #ddd;
+  margin-bottom: 3%;
+  font-size: 25px;
+}
+
+.start a,
+.recent h4 {
+  color: #3b82f6;
+  font-size: 18px;
+  font-weight: 100;
+  margin: 2% 0;
+  display: flex;
+  align-items: center;
+}
+
+.start i {
+  padding-left: 0;
+}
+
+.recent div {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.recent p {
+  font-size: 18px;
+  font-size: 18px;
+}
+
+.line {
+  background-color: #3b82f6;
+  padding: 3px 0;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+}
+
+.flex {
+  display: flex;
+}
+
+.box {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  font-size: 22px;
+  font-weight: 100;
+  margin: 2% 0;
+  background-color: #262626;
+  padding: 15px 0;
+}
