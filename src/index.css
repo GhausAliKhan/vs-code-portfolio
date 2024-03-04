@@ -4,3 +4,11 @@
   box-sizing: border-box;
   font-family: 'Cascadia Code', sans-serif;
 }
+
+.layout {
+  display: flex;
+}
+
+.content {
+  flex: 1;
+}

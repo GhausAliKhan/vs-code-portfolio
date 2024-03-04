@@ -1,6 +1,5 @@
 .sidebar {
   display: flex;
-  width: 20.5%;
   height: 93vh;
   color: #fff;
 }
@@ -11,8 +10,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  width: 17%;
-  padding: 15px 0;
+  padding: 15px;
 }
 
 .left-tab i {
@@ -20,12 +18,18 @@
   cursor: pointer;
 }
 
+.toggle {
+  border: none;
+  background-color: #555;
+}
+
 .right-tab {
   width: 83%;
   background-color: #252526;
+  padding-right: 65px;
 }
 
-button {
+.caret {
   border: none;
   background-color: #252526;
   width: 100%;
@@ -35,7 +39,7 @@ button {
   padding: 5px 0;
 }
 
-button:hover {
+.caret:hover {
   background-color: #313131;
 }
 
