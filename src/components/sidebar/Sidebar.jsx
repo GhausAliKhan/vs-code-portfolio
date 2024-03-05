@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import './sidebar.css';
 
 function Sidebar() {
@@ -45,17 +46,17 @@ function Sidebar() {
                 <ul className="items">
                   <li>
                     <i className="fa-brands fa-html5" />
-                    <a href="/" aria-label="Home">
+                    <Link to="/" aria-label="Home">
                       index.html
-                    </a>
+                    </Link>
                   </li>
                   <li>
                     <i className="fa-brands fa-css3" />
-                    <a href="/experience">experience.css</a>
+                    <Link to="/experience">experience.css</Link>
                   </li>
                   <li>
                     <i className="fa-brands fa-js" />
-                    <a href="/skills">skills.js</a>
+                    <Link to="/skills">skills.js</Link>
                   </li>
                 </ul>
               </div>
@@ -75,23 +76,29 @@ function Sidebar() {
                 <ul className="items">
                   <li>
                     <i className="fa-brands fa-react" />
-                    <a href="/todo-list-app">Todo-List-App.jsx</a>
+                    <Link to="/todo-list-app">Todo-List-App.jsx</Link>
                   </li>
                   <li>
                     <i className="fa-brands fa-react" />
-                    <a href="/cry-for-cypto">Cry-for-Crypto.jsx</a>
+                    <Link to="/cry-for-cypto">Cry-for-Crypto.jsx</Link>
                   </li>
                   <li>
                     <i className="fa-brands fa-react" />
-                    <a href="/math-magicians">Math-Magicians.jsx</a>
+                    <Link to="/math-magicians">Math-Magicians.jsx</Link>
+                  </li>
+                  <li>
+                    <i className="fa-brands fa-react" />
+                    <Link to="/space-travellers-hub">
+                      Space-Travellers-Hub.jsx
+                    </Link>
                   </li>
                   <li>
                     <i className="fa-solid fa-gem" />
-                    <a href="/book-a-motorcycle">Book-A-Motorcycle.rb</a>
+                    <Link to="/book-a-motorcycle">Book-A-Motorcycle.rb</Link>
                   </li>
                   <li>
                     <i className="fa-solid fa-gem" />
-                    <a href="/spend-smart">Spend-Smart.rb</a>
+                    <Link to="/spend-smart">Spend-Smart.rb</Link>
                   </li>
                 </ul>
               </div>
@@ -111,7 +118,7 @@ function Sidebar() {
                 <ul className="items">
                   <li>
                     <i className="fa-brands fa-google" />
-                    <a href="/contact">email.doc</a>
+                    <Link to="/contact">email.doc</Link>
                   </li>
                 </ul>
               </div>
@@ -131,11 +138,11 @@ function Sidebar() {
                 <ul className="items">
                   <li>
                     <i className="fa-brands fa-readme" />
-                    <a href="/blogs">blogs.md</a>
+                    <Link to="/blogs">blogs.md</Link>
                   </li>
                   <li>
                     <i className="fa-brands fa-node-js" />
-                    <a href="/startup">startup.json</a>
+                    <Link to="/startup">startup.json</Link>
                   </li>
                 </ul>
               </div>
