@@ -32,7 +32,7 @@ function Home() {
             <h3>Recent</h3>
             <div>
               <h4>Projects</h4>
-              <p>E:/ghausalikhan/projects/Space-Tavellers-Hub</p>
+              <p>E:/ghausalikhan/projects/Space-Travellers-Hub</p>
             </div>
             <div>
               <h4>Experience</h4>
