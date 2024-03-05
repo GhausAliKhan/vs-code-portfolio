@@ -10,7 +10,8 @@
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
-  padding: 15px;
+  padding: 15px 0;
+  width: 60px;
 }
 
 .left-tab i {
@@ -24,9 +25,7 @@
 }
 
 .right-tab {
-  width: 83%;
   background-color: #252526;
-  padding-right: 65px;
 }
 
 .caret {

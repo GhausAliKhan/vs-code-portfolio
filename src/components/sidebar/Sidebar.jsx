@@ -86,6 +86,10 @@ function Sidebar() {
                     <a href="/math-magicians">Math-Magicians.jsx</a>
                   </li>
                   <li>
+                    <i className="fa-brands fa-react" />
+                    <a href="/space-travellers-hub">Space-Travellers-Hub.jsx</a>
+                  </li>
+                  <li>
                     <i className="fa-solid fa-gem" />
                     <a href="/book-a-motorcycle">Book-A-Motorcycle.rb</a>
                   </li>

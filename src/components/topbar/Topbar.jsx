@@ -11,7 +11,7 @@ function Topbar() {
             </a>
           </li>
           <li>
-            <a href="/about">About</a>
+            <a href="/">About</a>
           </li>
           <li>
             <a href="/experience">Experience</a>
