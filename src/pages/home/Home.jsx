@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import './home.css';
 
 function Home() {
@@ -11,22 +12,22 @@ function Home() {
         <div className="content-left">
           <div className="start">
             <h3>Start</h3>
-            <a href="/skills">
+            <Link to="/skills">
               <i className="fa-solid fa-list" />
               Skills ...
-            </a>
-            <a href="/experience">
+            </Link>
+            <Link to="/experience">
               <i className="fa-solid fa-hashtag" />
               Experience ...
-            </a>
-            <a href="/projects">
+            </Link>
+            <Link to="/projects">
               <i className="fa-regular fa-folder-open" />
               Projects ...
-            </a>
-            <a href="/contact">
+            </Link>
+            <Link to="/contact">
               <i className="fa-regular fa-comment-dots" />
               Contact ...
-            </a>
+            </Link>
           </div>
           <div className="recent">
             <h3>Recent</h3>
