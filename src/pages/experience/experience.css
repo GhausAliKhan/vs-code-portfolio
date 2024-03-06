@@ -1,0 +1,51 @@
+.page {
+  background-color: #1e1e1e;
+  width: 100%;
+  height: 93vh;
+  padding: 0 5%;
+  color: #fff;
+  overflow-y: auto;
+}
+
+.experienceTitleAndDate {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.experienceTitleAndDate h3 {
+  color: #3b82f6;
+}
+
+.experienceDescription {
+  width: 85%;
+}
+
+.description {
+  margin: 2% 0;
+}
+
+.singleProject {
+  margin-bottom: 2%;
+}
+
+.singleProject h4 {
+  color: #3b82f6;
+  margin: 5px 0;
+}
+
+.singleProject p {
+  font-size: 18px;
+}
+
+.projectLinks {
+  margin: 1% 0;
+}
+
+.projectLinks a {
+  margin-right: 1%;
+}
+
+.projectLinks a:hover {
+  color: #3b82f6;
+}
