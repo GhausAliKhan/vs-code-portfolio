@@ -5,6 +5,7 @@
   justify-content: center;
   height: 50%;
 }
+
 .contactDescription {
   padding-right: 5%;
   width: 50%;
@@ -13,6 +14,7 @@
   align-items: center;
   font-size: 28px;
 }
+
 .contactForm {
   width: 50%;
   padding-left: 5%;
@@ -21,6 +23,7 @@
   align-items: center;
   height: 100%;
 }
+
 .contactForm form {
   width: 100%;
   display: flex;
@@ -46,7 +49,7 @@ form button {
   padding: 15px;
   width: 150px;
   border-radius: 10px;
-  background: #555555;
+  background: #555;
   border: none;
   color: #fff;
 }
