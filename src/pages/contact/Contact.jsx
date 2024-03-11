@@ -3,9 +3,6 @@ import { useForm, ValidationError } from '@formspree/react';
 
 function Contact() {
   const [state, handleSubmit] = useForm('xeqyzano');
-  if (state.succeeded) {
-    return <p>Thanks for joining!</p>;
-  }
   return (
     <div className="page">
       <div className="heading">
@@ -15,10 +12,9 @@ function Contact() {
       <div className="contact">
         <div className="contactDescription">
           <p>
-            You can contact me with any questions, suggestions, or just to say
-            hi. I am always open to new ideas and collaborations. It can be
-            anything like collaborating on good projects or startups or anime or
-            gaming or anything else.
+            You can contact me with any questions, suggestions or just to say
+            Hi. I am always open to new ideas and collaborations. It can be
+            anything like collaborating on good projects/startups or anything else.
           </p>
         </div>
         <div className="contactForm">
